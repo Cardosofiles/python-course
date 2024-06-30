@@ -18,3 +18,8 @@ print(json.dumps(person_dict, indent=4, sort_keys=True))
 # 4 - Salvando json em txt
 with open('person.txt', 'w') as json_file:
   json.dump(person_dict, json_file)
+
+# 5 - Lendo arquivo json
+with open("iris.json", 'r') as f:
+  data = json.load(f)
+  print(data)
