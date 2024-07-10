@@ -1,0 +1,6 @@
+Python
+Pandas
+Selenium
+
+Terça-Feira
+Sábado
